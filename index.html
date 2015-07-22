@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        <title>hood</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <style>
+      .row-up-margin{
+          margin-top: 10px;
+          margin-left: -30px;
+          margin-right: -30px;
+        }
+        #home-link{
+             margin-top: -20px;
+             width:100%;
+             height:500px;
+        }
+      #link,#location-link,#aboutus-link
+      {
+          margin-top: -20px;
+      }
+  </style>
+    </head>
+    <body>
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container ">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                    <a class="navbar-brand" href="#">hood</a>
+                </div>
+                <center>
+                <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home-link">home</a></li>
+                    <li ><a href="#link">link</a></li>
+                    <li ><a href="#location-link">location</a></li>
+                    <li ><a href="#aboutus-link">about us</a></li>
+                </ul>
+                    <form class="navbar-form" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="search_location" placeholder="enter your location"></div>
+                        <a class="btn btn-info" href="www.google.com" role="button">search</a>
+                        <button class="btn btn-info" data-toggle="modal" data-target="#login-modal" type="submit">Login</button>
+                        <button class="btn btn-info" type="submit" data-toggle="modal" data-target="#signup-modal"  >Sign Up</button>
+                    </form>
+                
+            </div>
+                </center>
+        </div>
+        </nav>
+        
+        
+        <div class="modal fade" id="login-modal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Login</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="user-email" placeholder="enter your email address">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" name="user-password" placeholder="enter your password">
+                            </div>
+                            <div class="form-group">
+                                <button type="button" class="btn btn-info">Login</button>
+                            </div>
+                                
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                
+        <div class="modal fade" id="signup-modal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Signup</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="row">
+                            <div class="form-group col-lg-4">
+                               <label for="user-name">    Name:</label>
+                                <input type="text" class="form-control"  id="user-name" name="user-name" placeholder="ex. amit rajput" >
+                            </div>
+                            
+                            <div class="form-group col-lg-5">
+                                <label for="user-email">    Email Address:</label>
+                                <input type="email" class="form-control" id="user-email" name="user-email" placeholder="ex. abc@gmail.com">
+                            </div>
+                            </div>
+                            <div class="row">
+                            <div class="form-group col-lg-5">
+                                <label for="user-password">    Password:</label>
+                                <input type="password" class="form-control" id="user-password" name="user-password" placeholder="enter your password">
+                                <label for="user-password"> Confirm Password:</label>
+                                <input type="password" class="form-control" id="user-password" name="user-password" placeholder="enter your password">
+                            </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-lg-4">
+                                    <label for="user-age">    Enter Age:</label>
+                                <input type="number" class="form-control" name="user-age" placeholder="enter your age">
+                            </div>
+                            
+                            <div class="form-group col-lg-4">
+                                <label for="user-city">    City:</label>
+                                <input type="text" class="form-control" name="user-city" placeholder="enter your city">
+                            </div>
+                            </div>
+                            <center>
+                            <div class="form-group">
+                                
+                                <a class="btn btn-info" href="#" role="button">Sign Up</a>
+                            </div>
+                            </center>
+                                
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+                
+                
+                
+        <div class="container-fluid">
+            <div class="row row-up-margin">
+                <div class="col-lg-12" id="col_header">
+        <div class="page-header well" id="page_header">
+                <h2>hood</h2>
+                <h4>know top 10 things about your neighbourhood</h4>
+            </div>
+                </div>
+            </div>
+        
+        </div>
+        <div class="well" id="home-link">
+            <img src="link1.jpg" id="home-image-background" class="img-rounded" alt="image">
+        </div>
+        <div class="well" id="link"><p >aasdsadasds<br><br>
+            faaaaaaaaaaaaaaaaaaaaaaaaasaaasdsadasds<br><br>
+            </p></div>
+        <div class="well" id="location-link"> <p>ssssssssssssssssssssss<br>sdsssssssssssssssssssfaaaaaaaaaaaaaaaaaaaaaaaaasaaasdsadasds<br>ssssssssssssssssssssss<br>sdsssssssssssssssssssssssssssssssssssssssss<br>sdsssssssssssssssssssssssssssssssssssssssss<br>sdsssssssssssssssssssssssssssssssssssssssss<br>sdsssssssssssssssssssssssssssssssssssssssss<br>sdsssssssssssssssssssssssssssssssssssssssss<br>
+            </p></div>
+        <div class="well" id="aboutus-link"><h3>ABOUT US<br>bang<br> bang<br> bang<br> bangdi<br> bang<br> bang<br><br><br>
+                Author: Amit Kumar</h3></div>
+    </body>
+</html>

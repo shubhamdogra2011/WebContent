@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 9, 2015, 1:30:12 AM
+    Author     : Amit
+*/
+
+.navbar-default {
+  background-color: #12222b;
+  border-color: #12222b;
+}
+.navbar-default .navbar-brand {
+  color: #caced0;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ae1f32;
+}
+.navbar-default .navbar-text {
+  color: #caced0;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #caced0;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ae1f32;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #12222b;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #caced0;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ae1f32;
+  background-color: #12222b;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #12222b;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ae1f32;
+  background-color: #12222b;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ae1f32;
+  background-color: #12222b;
+}
+.navbar-default .navbar-toggle {
+  border-color: #12222b;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #12222b;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #caced0;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #caced0;
+}
+.navbar-default .navbar-link {
+  color: #caced0;
+}
+.navbar-default .navbar-link:hover {
+  color: #ae1f32;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #caced0;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ae1f32;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ae1f32;
+    background-color: #12222b;
+  }
+}

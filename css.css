@@ -1,0 +1,148 @@
+
+	<style type="text/css">
+
+	body{
+		background-color: #295266;
+		font: 14px / 1.625 "Raleway", sans-serif;
+	}
+	
+	.header{
+				 background-color: #12222B;
+  		background-position: 70% 80%;
+  		color: #1e1e1e;
+
+	}
+
+	.text{
+		padding-top: 250px;
+		text-align: center;
+		font: 14px / 1.625 "Raleway", sans-serif;
+		  color: #B4B9BC
+	}
+
+	.text_lg{
+		color:#CACED0;
+		font-size: 70px;
+	}
+
+	.navbar{
+		font: 14px / 1.625 "Raleway", sans-serif;
+
+	}
+
+	#show{
+		margin: 30px;
+	}
+
+	.container_1{
+		margin: 30px;
+		ext-align: center;
+		font: 14px / 1.625 "Raleway", sans-serif;
+		  color: #12222B;
+	}
+
+	
+
+	.well{
+		background-color: #12222B;
+	}
+
+	.col-sm-4{
+		padding: 30px;
+	}
+
+	.panel-body{
+		padding: 30px;
+	}
+
+	.modal{
+		/*background-color: #295266;*/
+		 
+
+	}
+
+	.modal-content{
+		background-color: #12222B;
+	}
+
+	.modal-header{
+		background-color: #ae1f32;#F7A125;
+    color: white;
+	}
+	
+	.form-control {
+    width: 90%; 
+    padding: 5px 0;
+    text-indent: 5px;
+}
+
+  .button{ 
+    background-color: #ae1f32;
+    color: white;
+  }
+  .btn{
+    background-color: #ae1f32;
+    color: white;
+  }
+
+.midcol {
+  float: right;
+  margin-right: 7px;
+  margin-left: 7px;
+  background: transparent;
+  overflow: hidden;
+}
+
+.thumbnail {
+  float: left;
+  font-size: 0;
+  margin: 0;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  overflow: hidden;
+  width: 70px;
+}
+
+.entry {
+  overflow: hidden;
+  margin-left: 3px;
+  opacity: 1;
+}
+
+.city_thumbnail{
+  float: left;
+  
+  margin: 2px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  overflow: hidden;
+  
+}
+
+.title {
+  font-size: medium;
+  font-weight: normal;
+  margin-bottom: 1px;
+}
+
+.tagline {
+  color: #888;
+  font-size: x-small;
+}
+
+.thread{
+	margin-bottom: 50px;
+
+}
+
+.next a {
+     background-color: #ae1f32 !important;
+    color: white !important;
+}
+.previous a {
+    background-color: #ae1f32 !important;
+    color: white !important;
+}
+
+
+	</style>
